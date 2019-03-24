@@ -47,7 +47,7 @@ def check_cy(j):
         pre=soup.text
         pre=(pre.split('=')[3].split(';')[0])
     else:
-        pre=0
+        pre=100000
     return(pre)
     
 
